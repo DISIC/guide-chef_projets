@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>Focus sur le RGAA : référentiel technique - Guide du chef de projets RGAA 3</title>
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="css/styles.css" media="all">
+  <link rel="stylesheet" href="css/print.css" media="print">
+  <script type="text/javascript" src="highlight/highlight.pack.js"></script>
+  <link rel="stylesheet" href="highlight/styles/tomorrow-night-eighties.css" media="all">
+	<script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body>
+
+<div class="main-header">
+	<div class="inside">
+		<ul class="skip-links">
+			<li><a href="#main">contenu</a></li>
+			<li><a href="#navigation">navigation</a></li>
+		</ul>
+		<header role="banner" class="header  clear" id="banner">
+			<h1 class="title">Guide du chef de projets RGAA 3</h1>
+		</header>
+
+				<nav role="navigation" class="gp-sommaire" id="navigation" aria-label="Sommaire du guide">
+			<button id="btnSommaire" aria-expanded="false">Sommaire</button>
+			<ul class="sommaire is-hidden" id="sommaireToggle">
+				<li><a href="index.html">Introduction</a></li>
+				<li>
+				<a href="1-accessibilite_numerique.html">1. Accessibilité numérique et handicap</a></li>
+				<li><a href="2-loi.html">2. Normes et réglementation</a></li>
+				<li><a href="3-rgaa.html">3. Focus sur le RGAA : guide d'accompagnement</a></li>
+				<li><a href="4-referentiel_technique.html">4. Focus sur le RGAA : référentiel technique</a></li>
+										<li><a href="5-gestion_projets.html">5. L’accessibilité dans la gestion de projets :</a>
+      <ul>
+       <li><a href="6-initialisation_projet.html">1. Initialisation du projet</a></li>
+       <li><a href="7-phase_conception.html">2. Phase de conception</a></li>
+       <li><a href="8-phase_developpement.html">3. Phase de développement</a></li>
+       <li><a href="9-mise-production.html">4. Publication et mise en production</a></li>
+       <li><a href="10-maintenir-accessibilite.html">5. Pérenniser et maintenir l'accessibilité</a></li>
+      </ul></li>
+				<li><a href="synthese.html">Fiche synthétique</a></li>
+			</ul>
+		</nav>
+				<div class="github-link">
+			<p><a href="https://github.com/DISIC/guide-chef_projets">Contribuer</a>
+			<a class="pdfdown" title="Télécharger le Guide du chef de projets RGAA 3 (pdf, 462 ko)" href="https://github.com/DISIC/guide-chef_projets/pdf/guide-chef_projets.pdf">Télécharger</a></p>
+		</div>
+	</div>
+</div>
+
+<div id="wrapper">
+
+	<nav role="navigation" class="internav clear">
+		<ul>
+			<li><a class="prev" href="3-rgaa.html"><span aria-hidden="true"> &laquo; </span>Focus sur le RGAA 3 : guide d'accompagnement </a></li>
+			<li><a class="next" href="5-gestion_projets.html"> <span aria-hidden="true">L’accessibilité dans la gestion de projets &raquo; </span></a></li>
+		</ul>
+	</nav>
+
+	<main id="main" role="main">
+		<h1 class="fiche-title">Focus sur le RGAA 3 : référentiel technique</h1>
+
+		<article class="article">
+		<h2>Le référentiel technique</h2>
+		<p>Le référentiel technique constitue la partie opérationnelle du RGAA pour réaliser les audits d’évaluation de la conformité.</p>
+		<p>Il est composé : d’une <a href="https://references.modernisation.gouv.fr/rgaa-accessibilite/criteres.html">liste de critères</a>, d’un <a href="https://references.modernisation.gouv.fr/rgaa-accessibilite/glossaire.html">glossaire</a>, des <a href="https://references.modernisation.gouv.fr/rgaa-accessibilite/cas-particuliers.html">cas particuliers</a>, des <a href="https://references.modernisation.gouv.fr/rgaa-accessibilite/notes-techniques.html">notes techniques</a>, de la <a href="https://references.modernisation.gouv.fr/rgaa-accessibilite/base-de-reference.html">base de référence</a> et enfin <a href="https://references.modernisation.gouv.fr/rgaa-accessibilite/references.html">des références bibliographiques</a>.</p>
+	</article>
+<article class="article">
+		<h3>La liste des critères</h3>
+		<p>Cette liste est organisée autour de treize thématiques opérationnelles (par exemple : images, couleurs, liens, tableau, formulaires…). Chaque critère d'une thématique est associé à un ensemble de tests permettant de déterminer le statut de conformité.</p>
+		<p>La liste des critères a pour objectif de vérifier chaque point d'une thématique et de statuer sur la conformité  selon les indicateurs suivants :</p>
+		<ul>
+			<li>C « Conforme » : tous les tests applicables ont été validés ;</li>
+			<li>NC « Non Conforme » : au moins un test applicable n’est pas validé ;</li>
+			<li>NA « Non Applicable » : l’objet balise, contenu, dispositif) n’est pas présent dans la page auditée ;</li>
+			<li>NT « Non Testé » : les tests n’ont pas été menés ;</li>
+			<li>D « Dérogé » : il existe pour le critère un contenu dérogé. Ce statut vient en complément des statuts de conformité.</li>
+		</ul>
+		<p>Chaque critère implémente un ou plusieurs critères de succès WCAG et est associé à un niveau déduit : lorsque plusieurs critères de succès WCAG liés sont de niveaux différents, le niveau déduit est le plus bas.</p>
+		<p>Les tests sont aussi précis que possible et parfois très techniques, une bonne connaissance de HTML, CSS et JavaScript est requise.</p>
+		<p>Chaque test implémente une technique WCAG au moins, ce qui assure une compatibilité totale avec WCAG 2.</p>
+		<p>Certains tests sont associés à des conditions qu’il faut respecter entièrement (« toutes ces conditions »)  ou isolément (« une de ces conditions »).</p>
+		<p>Les critères et les tests sont unitaires et indépendants les uns des autres.</p>
+		<h4>Exemple de critère RGAA</h4>
+		<p>Voici le premier critère du RGAA :</p>
+		<blockquote>
+			<p>Critère 1.1 [A] Chaque image a-t-elle une alternative textuelle ?</p>
+		</blockquote>
+		<p>Ce critère implémente le critère de succès WCAG 2.0 1.1.1 de niveau A, le niveau déduit est donc [A].</p>
+		<p>Il est associé à 4 tests :</p>
+		<ul>
+			<li>Test 1.1.1 : Chaque image (balise img) a-t-elle un attribut alt ?</li>
+			<li>Test 1.1.2 : Chaque zone (balise area) d'une image réactive a-t-elle un attribut alt ?</li>
+			<li>Test 1.1.3 : Chaque bouton de type image (balise input avec l'attribut type="image") a-t-il un attribut alt ?</li>
+			<li>Test 1.1.4 : Chaque zone cliquable d'une image réactive côté serveur est-elle doublée d'un lien dans la page ?</li>
+		</ul>
+		<p>Ces tests sont associés aux techniques WCAG : H36 - H37 - H53 - H24 – F65.</p>
+		<p>Si aucun de ces tests n’est applicable, le critère est non applicable (NA) ; si tous les tests applicables sont réussis, alors le critère est conforme (C) ; si au moins un test est échoué,  le critère est non conforme (NC).</p>
+	</article>
+
+	<article class="article">
+		<h3>Le glossaire</h3>
+		<p>Le glossaire est un élément central du référentiel technique. Il contient toutes les définitions de termes techniques qui peuvent faire varier l’applicabilité du critère et donc la mesure de conformité.</p>
+		<h4>Exemple de définition de glossaire</h4>
+		<blockquote>
+			<p><strong>Alerte</strong> : Message d'alerte interrompant la navigation ou l'utilisation de la page, notamment en demandant de cliquer sur un bouton ou un lien pour continuer la navigation ou l'utilisation du contenu. Par exemple, une boîte de dialogue générée par JavaScript via la fonction alert. Par extension, une fenêtre modale (contenu présenté sous forme de « fenêtre » insérée ou affichée dans le DOM) qui nécessite d'être fermée pour continuer la navigation ou l'utilisation du contenu est considérée comme une alerte. Note : la désactivation des alertes concernées peut être proposée avant le déclenchement de l'alerte, par exemple, via un paramètre utilisateur ou lors de l'affichage de la première alerte, par exemple via une case à cocher « ne plus afficher cette alerte ».</p>
+		</blockquote>
+		<p>Le recours au glossaire est un élément majeur de la conduite d’un audit.</p>
+	</article>
+	<article class="article">
+		<h3>Les cas particuliers</h3>
+		<p>Les cas particuliers répertorient toutes les situations de dérogations prévisibles, c’est-à-dire dans lesquelles il n’est jamais possible de rendre un contenu accessible.</p>
+		<p>Lorsqu’un critère invoque un cas particulier et que ce dernier est présent, le critère est non applicable (NA) pour ce contenu.</p>
+		<h4>Exemple de cas particulier</h4>
+		<blockquote>
+			<p><strong>Critère 1.3</strong> :<br>
+Il existe une gestion de cas particuliers lorsque l'image est utilisée comme CAPTCHA ou comme image-test. Dans cette situation, où il n'est pas possible de donner une alternative pertinente sans détruire l'objet du CAPTCHA ou du test, le critère est non applicable.
+Note : le cas des CAPTCHAS et des images-tests est traité de manière spécifique par le critère 1.4.</p>
+		</blockquote>
+		<p>Les cas particuliers sont indiqués par l’intermédiaire d’un lien dans l’intitulé du critère : <q>Critère 1.3 [A] Pour chaque image porteuse d'information ayant une alternative textuelle, cette alternative est-elle pertinente (hors cas particuliers) ?</q></p>
+		</article>
+		<article class="article">
+			<h3>Les notes techniques</h3>
+			<p>Les notes techniques ont pour vocation d’apporter des précisions sur certains éléments nouveaux dans la spécification HTML5 notamment.</p>
+		</article>
+		<article class="article">
+			<h3>La base de référence</h3>
+			<p>Le RGAA demande, pour certaines problématiques, le développement de composants riches avec JavaScript et ARIA<a href="#ftn1" id="body-ftn1"><sup>[1]</sup></a> notamment que leur restitution soit testée avec certains lecteurs d’écrans d’usage habituel.</p>
+			<p>La base de référence est constituée de différentes configurations (associant une technologie d'assistance, un système d'exploitation et un navigateur) qui permettent de déclarer qu'un dispositif HTML5/ARIA est conforme.</p>
+			<p>À l’heure de la rédaction de ce document, la base de référence est constituée des lecteurs d’écran NVDA, JAWS et VoiceOver et des navigateurs Internet Explorer, Firefox et Safari.</p>
+		</article>
+	<article class="footnote">
+				<ol>
+					<li id="ftn1"><a href="https://www.w3.org/TR/wai-aria-1.1/">ARIA (Accessible Rich Internet Application)</a> est une API qui décrit les rôles et propriétés permettant de rendre les dispositifs JavaScript accessibles ainsi que leurs règles d’utilisation.</li>
+				</ol>
+			</article>
+	</main>
+
+	<footer id="footer" role="contentinfo" class="clear">
+		<h2>Licence d'utilisation</h2>
+		<p class="logo-smgap"><img src="img/modernisation-logo.jpg" alt=""></p>
+		<p>Ce document est la propri&#233;t&#233; du secr&#233;tariat g&#233;n&#233;ral &#224; la modernisation de l'action publique fran&#231;ais (SGMAP). Il est plac&#233; sous la <a href="https://www.etalab.gouv.fr/licence-ouverte-open-licence">licence ouverte 1.0 ou ult&#233;rieure</a>, &#233;quivalente &#224; une licence <i lang="en">Creative Commons BY</i>. Pour indiquer la paternit&#233;, ajouter un lien vers la version originale du document disponible sur le <a href="https://github.com/DISIC">compte <span lang="en">GitHub</span> de la DINSIC</a>.</p>
+	</footer>
+
+</div>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

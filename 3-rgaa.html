@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>Focus sur le RGAA : guide d'accompagnement - Guide du chef de projets RGAA 3</title>
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="css/styles.css" media="all">
+  <link rel="stylesheet" href="css/print.css" media="print">
+  <script type="text/javascript" src="highlight/highlight.pack.js"></script>
+  <link rel="stylesheet" href="highlight/styles/tomorrow-night-eighties.css" media="all">
+	<script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body>
+
+<div class="main-header">
+	<div class="inside">
+		<ul class="skip-links">
+			<li><a href="#main">contenu</a></li>
+			<li><a href="#navigation">navigation</a></li>
+		</ul>
+		<header role="banner" class="header  clear" id="banner">
+			<h1 class="title">Guide du chef de projets RGAA 3</h1>
+		</header>
+
+				<nav role="navigation" class="gp-sommaire" id="navigation" aria-label="Sommaire du guide">
+			<button id="btnSommaire" aria-expanded="false">Sommaire</button>
+			<ul class="sommaire is-hidden" id="sommaireToggle">
+				<li><a href="index.html">Introduction</a></li>
+				<li>
+				<a href="1-accessibilite_numerique.html">1. Accessibilité numérique et handicap</a></li>
+				<li><a href="2-loi.html">2. Normes et réglementation</a></li>
+				<li><a href="3-rgaa.html">3. Focus sur le RGAA : guide d'accompagnement</a></li>
+				<li><a href="4-referentiel_technique.html">4. Focus sur le RGAA : référentiel technique</a></li>
+										<li><a href="5-gestion_projets.html">5. L’accessibilité dans la gestion de projets :</a>
+      <ul>
+       <li><a href="6-initialisation_projet.html">1. Initialisation du projet</a></li>
+       <li><a href="7-phase_conception.html">2. Phase de conception</a></li>
+       <li><a href="8-phase_developpement.html">3. Phase de développement</a></li>
+       <li><a href="9-mise-production.html">4. Publication et mise en production</a></li>
+       <li><a href="10-maintenir-accessibilite.html">5. Pérenniser et maintenir l'accessibilité</a></li>
+      </ul></li>
+				<li><a href="synthese.html">Fiche synthétique</a></li>
+			</ul>
+		</nav>
+				<div class="github-link">
+			<p><a href="https://github.com/DISIC/guide-chef_projets">Contribuer</a>
+			<a class="pdfdown" title="Télécharger le Guide du chef de projets RGAA 3 (pdf, 462 ko)" href="https://github.com/DISIC/guide-chef_projets/pdf/guide-chef_projets.pdf">Télécharger</a></p>
+		</div>
+	</div>
+</div>
+
+<div id="wrapper">
+
+	<nav role="navigation" class="internav clear">
+		<ul>
+			<li><a class="prev" href="2-loi.html"><span aria-hidden="true"> &laquo; </span>Normes et réglementation </a></li>
+			<li><a class="next" href="4-referentiel_technique.html">Focus sur le RGAA 3 : référentiel technique <span aria-hidden="true"> &raquo; </span></a></li>
+		</ul>
+	</nav>
+
+	<main id="main" role="main">
+		<h1 class="fiche-title">Focus sur le RGAA 3&nbsp;: guide d'accompagnement</h1>
+		<article class="article">
+			<p>Le RGAA est composé de trois documents principaux : une introduction, un guide d’accompagnement et le référentiel technique.</p>
+		</article>
+		<article class="article">
+		<h2>Le guide d’accompagnement</h2>
+		<p>Il contient une présentation générale de l’accessibilité numérique, le rappel du cadre législatif et des précisions opérationnelles sur ses conditions d’applications.</p>
+
+		<p>Sont présentés ci-dessous les points les plus importants à connaître pour son application dans le cadre d’un projet web.</p>
+	</article>
+<article class="article">
+		<h3>Périmètre d'application du RGAA</h3>
+		<p>Le RGAA concerne tout type de site ou d’application web, y compris les intranets et les applications métiers qu’ils soient développés en interne ou fassent l’objet de prestations externalisées.</p>
+		<p>Tous les types de contenus sont concernés tels que les contenus HTML, les contenus en téléchargement au format bureautique, etc.</p>
+		<p>Le RGAA s’applique de la même manière sur un site déjà existant ou sur un site ou une application à venir.</p>
+		<p>À noter que la Loi pour une République Numérique (LRN) étend la problématique aux applications mobiles<a href="#ftn1" id="body-ftn1"><sup>[1]</sup></a> qui ne sont pas encore prises en charge par le référentiel technique au moment de la rédaction de ce guide.</p>
+	</article>
+
+	<article class="article">
+		<h3>Niveau de conformité</h3>
+		<p>Comme les WCAG, dont il est une application, le RGAA propose trois niveaux de conformité (A, AA, AAA). Le  niveau A contient les recommandations essentielles, le niveau AA complète le niveau A avec des recommandations permettant d’améliorer l’expérience des utilisateurs, le niveau AAA contient des recommandations spécifiques à certains types d’utilisateurs. Le niveau légal retenu est le niveau AA qui est également le niveau de conformité retenu par la directive européenne.</p>
+		<p>Cela implique que les sites et applications web, y compris les applications métiers en technologie web, doivent implémenter tous les critères de niveau A et de niveau AA.</p>
+		<p>La mesure de conformité s’exprime en part de critères validés (« Conforme ») sur le nombre de critères applicables.</p>
+		<p>Par exemple, 100 critères sont applicables, 66 sont conformes, la mesure de conformité est de 66 %.</p>
+		<p>Le niveau de conformité requis par la réglementation est de 100 % de critères A et AA « conformes ».</p>
+		<p>Note : les contenus dérogés (voir ci-dessous) ne font pas partie de la mesure de conformité.</p>
+		</article>
+	<article class="article">
+		<h3>Documents obligatoires et dérogations</h3>
+		<p>Le RGAA impose un certain nombre de dispositifs et de documents obligatoires.</p>
+
+		<h4>Déclaration de conformité</h4>
+		<p>À l’issue des opérations de mises aux normes, le site doit publier une déclaration de conformité au RGAA qui contient au moins :</p>
+		<ul>
+			<li>la date de réalisation&nbsp;;</li>
+			<li>la version du RGAA de référence&nbsp;;</li>
+			<li>le nom et l'adresse email du déclarant&nbsp;;</li>
+			<li>les technologies utilisées sur le site&nbsp;;</li>
+			<li>la liste des agents utilisateurs et technologies d'assistance utilisées pour vérifier l'accessibilité des contenus&nbsp;;</li>
+			<li>la liste des pages du site ayant fait l'objet de la vérification de conformité&nbsp;;</li>
+			<li>le résultat des tests et la justification des dérogations.</li>
+		</ul>
+		<p>La déclaration de conformité est établie sur la base d’un échantillon représentatif de la typologie des contenus et des fonctionnalités du site ou de l’application.</p>
+		<ul>
+			<li>page d'accueil&nbsp;;</li>
+			<li>page contact&nbsp;;</li>
+			<li>page mentions légales&nbsp;;</li>
+			<li>page politique d'accessibilité&nbsp;;</li>
+			<li>page aide&nbsp;: cette page est obligatoire, elle contient au moins les coordonnées d’un contact et les coordonnées du défenseur des droits (cf. plus bas « canal de signalement »)&nbsp;;</li>
+			<li>page plan du site&nbsp;;</li>
+			<li>page recherche&nbsp;;</li>
+			<li>toutes les pages composant le processus d'un service en ligne (un formulaire ou une transaction sur plusieurs pages).</li>
+		</ul>
+		<p>S'ajoute à ces pages impératives un certain nombre de pages dans la liste suivante&nbsp;:</p>
+		<ul>
+			<li>pages d'accès aux contenus ou aux fonctionnalités principales (ex.&nbsp;: rubriques de 1er niveau dans l'arborescence…)&nbsp;;</li>
+			<li>pages représentatives des types de contenus disponibles sur le site (ex.&nbsp;: page contenant des tableaux de données, des éléments multimédias, des illustrations, des formulaires, etc.)&nbsp;;</li>
+			<li>pages ayant le plus grand nombre de visiteurs.</li>
+		</ul>
+		<p>La déclaration de conformité est détaillée dans le guide d’accompagnement à la section <a href="https://references.modernisation.gouv.fr/rgaa-accessibilite/guide-accompagnement-RGAA.html#Declaration-de-conformite">4.2.5. Déclaration de conformité</a>.</p>
+		<h4>Dérogations</h4>
+		<p>Le RGAA prévoit un certain nombre de dérogations qui encadrent les cas où il n’est pas possible de rendre un contenu accessible. Trois dérogations sont prévues :</p>
+		<ul>
+			<li><strong>Contenu fourni par un tiers</strong> : il peut s’agir des contenus saisis par l'utilisateur du site ou de l'application comme un commentaire sur une page ou un article ou de contenus fournis par une source extérieure non contrôlable comme des publicités, un plan interactif, un fil Twitter, un document en téléchargement protégé par un droit d’auteur, etc.</li>
+			<li><strong>Archivage et obsolescence des contenus</strong> : les contenus relevant de la mission de sauvegarde à titre patrimonial de l’Internet par les acteurs publics désignés par la loi , par exemple l’INA ou la BNF sont dans ce cas pour certains types de contenus.</li>
+			<li><strong>Contenus en téléchargement en nombre important</strong> : il peut être excessivement coûteux et donc déraisonnable de mettre en conformité un nombre important d'archives en téléchargement, au-delà des contenus listés dans la section précédente. Dans ce cas, une dérogation peut être faite pour les documents de plus de 2 ans. Cela ne vaut pas pour la production de nouveaux documents.</li>
+		</ul>
+		<p><strong>Très important</strong> : ce sont bien des contenus qui sont dérogés et non le ou les critères RGAA concernés, lesquels  restent applicables pour les autres contenus présents dans la page.</p>
+		<p>Les contenus dérogés doivent être signalés à l’utilisateur, dans la page d’aide et/ou dans la déclaration de conformité. Les dérogations  doivent être expliquées et motivées ; un moyen permettant à l’utilisateur de signaler ses difficultés d’accès doit être mise en place (cf. infra « canal de signalement »).</p>
+		<p>Les dérogations sont détaillées dans le guide d’accompagnement à la section <a href="https://references.modernisation.gouv.fr/rgaa-accessibilite/guide-accompagnement-RGAA.html#Liste-des-derogations-admises-et-principe-de-la-compensation">4.2.6. Liste des dérogations admises et principe de la compensation</a>.</p>
+		<h4>Aménagement raisonnable</h4>
+		<p>La notion d’aménagement raisonnable est centrale dans le traitement des résultats d’un audit car elle génère éventuellement des dérogations. Elle est définie par la Convention Relative aux Droits des Personnes Handicapées (CRDPH) des Nations Unies, ratifiée par la France en 2010 :</p>
+		<blockquote>
+			<p>On entend par « aménagement raisonnable » les modifications et ajustements nécessaires et appropriés n'imposant pas de charge disproportionnée ou indue apportés, en fonction des besoins dans une situation donnée, pour assurer aux personnes handicapées la jouissance ou l'exercice, sur la base de l'égalité avec les autres, de tous les droits de l'homme et de toutes les libertés fondamentales.</p>
+		</blockquote>
+		<p>Le refus de procéder à des aménagements raisonnables constitue donc une discrimination.</p>
+		<p>Lorsqu’un problème est relevé par l’audit mais que sa correction impose des charges de travail ou des coûts jugés « déraisonnables » par rapport à l’impact réel sur l’utilisateur, une dérogation peut être invoquée.</p>
+		<p>La dérogation doit être alors traitée de la même manière que les dérogations prévues par le RGAA : elle doit être signalée et motivée. Le canal de signalement est alors le moyen alternatif d’accès à l’information ou la fonctionnalité qu’il n’a pas été possible de rendre accessible.</p>
+		<p>L’obligation d’aménagement raisonnable est décrite en détail dans le guide d’accompagnement à la section <a href="https://references.modernisation.gouv.fr/rgaa-accessibilite/guide-accompagnement-RGAA.html#Obligation-d-amenagement-raisonnable">4.2.3. Obligation d'aménagement raisonnable</a>.</p>
+		<h4>Canal de signalement</h4>
+		<p>Le RGAA impose la mise en place d’une adresse de contact permettant à un utilisateur de signaler les difficultés qu’il rencontre, demander l’accès à un contenu dérogé ou de  l’assistance.</p>
+		<p>Ce moyen de contact doit être disponible à partir de toutes les pages du site web ou de l’application.</p>
+		<p>Le canal de signalement est détaillé dans le guide d’accompagnement à la section <a href="https://references.modernisation.gouv.fr/rgaa-accessibilite/guide-accompagnement-RGAA.html#Liste-des-derogations-admises-et-principe-de-la-compensation">4.2.6. Liste des dérogations admises et principe de la compensation</a>.</p>
+		<h4>Modèles de document</h4>
+		<p>Le RGAA fournit dans ses ressources des <a href="https://references.modernisation.gouv.fr/ressources#modeles_documents">modèles de document</a> pour la déclaration de conformité et la page d’aide.</p>
+		</article>
+
+		<article class="footnote">
+				<ol>
+					<li id="ftn1">Les ressources du RGAA fournissent plusieurs guides dédiés aux applications mobiles comme le <a href="https://github.com/DISIC/guide-mobile_app_conception">Guide de conception d'applications mobiles accessibles</a>. (<a href="#body-ftn1">retour au texte</a>)</li>
+				</ol>
+			</article>
+	</main>
+
+	<footer id="footer" role="contentinfo" class="clear">
+		<h2>Licence d'utilisation</h2>
+		<p class="logo-smgap"><img src="img/modernisation-logo.jpg" alt=""></p>
+		<p>Ce document est la propri&#233;t&#233; du secr&#233;tariat g&#233;n&#233;ral &#224; la modernisation de l'action publique fran&#231;ais (SGMAP). Il est plac&#233; sous la <a href="https://www.etalab.gouv.fr/licence-ouverte-open-licence">licence ouverte 1.0 ou ult&#233;rieure</a>, &#233;quivalente &#224; une licence <i lang="en">Creative Commons BY</i>. Pour indiquer la paternit&#233;, ajouter un lien vers la version originale du document disponible sur le <a href="https://github.com/DISIC">compte <span lang="en">GitHub</span> de la DINSIC</a>.</p>
+	</footer>
+
+</div>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
